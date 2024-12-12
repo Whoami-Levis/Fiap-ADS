@@ -1,0 +1,24 @@
+td.text-entrada {
+    color: #4caf50 ;
+}
+
+td.text-saida {
+    color: #f44336 ;
+    font-size: "Poppins" xx-large; 
+}
+
+.saldo-card {
+    background-color: #4caf50;
+}
+
+.receitas-card {
+    background-color: #03a9f4;
+}
+
+.despesas-card {
+    background-color: #f44336;
+}
+
+.logo {
+    max-height: 40px;
+}

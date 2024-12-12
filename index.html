@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH-GESTFIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container mt-4">
+        <!-- Cabecalho -->
+        <header class="d-flex justify-content-between align-items-center py-3">
+            <div class="d-flex align-items-center">
+                <img src="images/logo.png" alt="Logo TechGestFin" class="logo me-3">
+                <h1 class="h4"> | Extrato</h1>
+            </div>
+            <div>
+                <button class="btn btn-outline-light">Modo Claro</button>
+            </div>
+        </header>
+
+        <!-- cards de Saldo -->
+        <div class="row my-4">
+            <div class="col-md-4">
+                <div class="card saldo-card text-white text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Saldo</h5>
+                        <p class="display-6">R$ 2.175,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card receitas-card text-white text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Receitas</h5>
+                        <p class="display-6">R$ 3.500,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card despesas-card text-white text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Despesas</h5>
+                        <p class="display-6">R$ 3.225,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela de Extrato -->
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/12/2024</td>
+                    <td class="text-saida"><i class="fas fa-shopping-cart"></i> Mercado</td>
+                    <td class="text-saida">R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>02/12/2024</td>
+                    <td class="text-entrada"><i class="fas fa-dollar-sign"></i> Salário</td>
+                    <td class="text-entrada">R$ 3.500,00</td>
+                </tr>
+                <tr>
+                    <td>21/12/2024</td>
+                    <td class="text-saida"><i class="fas fa-graduation-cap"></i> Fiap</td>
+                    <td class="text-saida">R$ 925,00</td>
+                </tr>
+                <tr>
+                    <td>02/12/2024</td>
+                    <td class="text-saida"><i class="fas fa-umbrella-beach"></i> Férias</td>
+                    <td class="text-saida">R$ 1.300,00</td>
+                </tr>
+                <tr>
+                    <td>02/12/2024</td>
+                    <td class="text-entrada"><i class="fas fa-gift"></i> 13º Salário</td>
+                    <td class="text-entrada">R$ 1.900,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Botões -->
+        <div class="d-flex justify-content-between mt-3">
+            <button class="btn btn-primary">Voltar</button>
+            <div class="dropdown">
+                <button class="btn btn-primary">Adicionar</button>
+        </div>
+</body>
+
+</html>
